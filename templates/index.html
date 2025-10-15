@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Rápido – Sala de Reunião - ACCERTH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='imagens/logo.png') }}" alt="Logo Accerth" class="logo">
+        <h1>Guia Rápido – Sala de Reunião</h1>
+    </header>
+    <main>
+        <section class="welcome">
+            <h2>👋 Bem-vindo à Sala de Reunião da Accerth!</h2>
+            <p>Aqui é onde as boas ideias ganham forma, as decisões são tomadas e o trabalho em equipe acontece de verdade.</p>
+            <p>Pra garantir que tudo funcione direitinho e você comece sua reunião sem dor de cabeça, siga o passo a passo abaixo. 🚀</p>
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>1. Ligue a TV</h3>
+                <p>Use o controle remoto e verifique se a tela está ligada.</p>
+                <p>Se não aparecer imagem, confira se o cabo HDMI está conectado corretamente.</p>
+            </div>
+            <img src="{{ url_for('static', filename='imagens/55.jpg') }}" alt="Ligar a TV">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>2. Selecione a entrada HDMI</h3>
+                <p>Pressione o botão Menu (esquerda) na TV.</p>
+                <p>Vá até Dispositivos Conectados, depois Menu (direita), selecione PC e pressione OK.</p>
+                <p><strong>💡 Dica:</strong> se a imagem não aparecer, verifique se o notebook está espelhando a tela.</p>
+            </div>
+            <img src="{{ url_for('static', filename='imagens/33.jpg') }}" alt="Selecionar HDMI">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>3. Ligue o notebook</h3>
+                <p>Conecte o cabo HDMI (se necessário) e aguarde a imagem aparecer na TV.</p>
+                <p><strong>🧠 Evite</strong> mover o notebook após conectar, pra não soltar o cabo.</p>
+            </div>
+            <img src="{{ url_for('static', filename='imagens/22.jpg') }}" alt="Ligar Notebook">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>4. Ligue a câmera</h3>
+                <p>Pressione e segure o botão Power por cerca de 5 segundos até o LED acender.</p>
+                <p>A câmera está pronta quando a luz azul permanecer acesa.</p>
+            </div>
+            <img src="{{ url_for('static', filename='imagens/11.jpg') }}" alt="Ligar Câmera">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>5. Ligue os microfones</h3>
+                <p>Distribua os microfones pela mesa (um em cada parte superior).</p>
+                <p>Para ligar, pressione e segure o botão Power por 5 segundos em cada um.</p>
+                <p><strong>🎙️ Assim</strong> todos na sala serão ouvidos com clareza durante a reunião.</p>
+            </div>
+            <img src="{{ url_for('static', filename='imagens/66.jpg') }}" alt="Ligar Microfones">
+        </section>
+
+        <section class="function">
+            <div class="function-content">
+                <h3>6. Inicie sua reunião</h3>
+                <p>Abra o aplicativo de videoconferência desejado (Teams, Zoom, Meet, etc.)</p>
+                <p>Verifique se a câmera e o microfone Intelbras estão selecionados como dispositivos principais.</p>
+                <p><strong>💬 Tudo pronto?</strong> Então é só começar sua reunião!</p>
+            </div>
+            <img src="{{ url_for('static', filename='imagens/77.jpg') }}" alt="Iniciar Reunião">
+        </section>
+
+        <section class="conclusion">
+            <h2>⚠️ Atenção Final</h2>
+            <p>Ao término da reunião, favor colocar todos os equipamentos nos seus devidos lugares, desligar os dispositivos e deixar o ambiente organizado para o próximo uso.</p>
+            
+            <h3>📅 Lembrete Importante</h3>
+            <p>Antes de iniciar qualquer reunião, não esqueça de:</p>
+            <ul>
+                <li>Enviar o link da reunião para 📧 <strong>reunioes@accerth.com</strong></li>
+                <li>Agendar sua reserva no aplicativo de agendamento da sala de reunião da Accerth.</li>
+            </ul>
+            <p><strong>🕒 Assim</strong> garantimos o uso organizado e evitamos conflitos de horário entre equipes.</p>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
