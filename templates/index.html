@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guia Rápido – Sala de Reunião - ACCERTH</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='imagens/favicon.ico') }}">
 </head>
 <body>
     <header>
@@ -17,6 +17,16 @@
             <h2>👋 Bem-vindo à Sala de Reunião da Accerth!</h2>
             <p>Aqui é onde as boas ideias ganham forma, as decisões são tomadas e o trabalho em equipe acontece de verdade.</p>
             <p>Pra garantir que tudo funcione direitinho e você comece sua reunião sem dor de cabeça, siga o passo a passo abaixo. 🚀</p>
+        </section>
+
+        <section class="reminder">
+            <h3>📅 Lembrete Importante</h3>
+            <p>Antes de iniciar qualquer reunião, não esqueça de:</p>
+            <ul>
+                <li>Enviar o link da reunião para 📧 <strong>reunioes@accerth.com</strong></li>
+                <li>Agendar sua reserva no aplicativo de agendamento da sala de reunião da Accerth.</li>
+            </ul>
+            <p><strong>🕒 Assim</strong> garantimos o uso organizado e evitamos conflitos de horário entre equipes.</p>
         </section>
 
         <section class="function">
@@ -79,14 +89,6 @@
         <section class="conclusion">
             <h2>⚠️ Atenção Final</h2>
             <p>Ao término da reunião, favor colocar todos os equipamentos nos seus devidos lugares, desligar os dispositivos e deixar o ambiente organizado para o próximo uso.</p>
-            
-            <h3>📅 Lembrete Importante</h3>
-            <p>Antes de iniciar qualquer reunião, não esqueça de:</p>
-            <ul>
-                <li>Enviar o link da reunião para 📧 <strong>reunioes@accerth.com</strong></li>
-                <li>Agendar sua reserva no aplicativo de agendamento da sala de reunião da Accerth.</li>
-            </ul>
-            <p><strong>🕒 Assim</strong> garantimos o uso organizado e evitamos conflitos de horário entre equipes.</p>
         </section>
     </main>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
